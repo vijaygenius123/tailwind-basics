@@ -4,16 +4,16 @@ import Header from './Components/Header'
 
 function App() {
     return (
-       <div>
+       <div className="text-gray-400">
            <div>
                <nav>
                    <div>
-                       <h1>
+                       <h1 className="font-bold uppercase p-4">
                            <a href="">Tailwind</a>
                        </h1>
                    </div>
                    <ul>
-                       <li>
+                       <li className="text-gray-700 font-bold">
                            <a href="">Home</a>
                        </li>
                        <li>
@@ -26,7 +26,7 @@ function App() {
                </nav>
            </div>
 
-           <main>
+           <main className="px-16 py-6">
                <div>
                    <a href="">Log In</a>
                    <a href="">Sign up</a>
@@ -34,12 +34,12 @@ function App() {
 
 
                <header>
-                   <h2>Recipes</h2>
-                   <h3>For Tailwind</h3>
+                   <h2 className="text-6xl text-gray-700 font-semibold">Recipes</h2>
+                   <h3 className="text-2xl font-semibold">For Tailwind</h3>
                </header>
 
                <div>
-                   <h4>Latest Recipes</h4>
+                   <h4 className="font-bold mt-12 pb-2 border-b border-gray-200">Latest Recipes</h4>
 
                    <div>
                        <div>
